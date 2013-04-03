@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button_butch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/label_butch" />
+
+    <Button
+        android:id="@+id/button_was"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_butch"
+        android:text="@string/label_was" />
+
+    <Button
+        android:id="@+id/button_was_ansteht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_was"
+        android:layout_alignRight="@+id/button_was"
+        android:layout_below="@+id/button_butch"
+        android:text="@string/label_was_ansteht" />
+
+    <Button
+        android:id="@+id/button_was_jetzt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_was_ansteht"
+        android:layout_alignBottom="@+id/button_was_ansteht"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_butch"
+        android:text="@string/label_was_jetzt" />
+
+    <Button
+        android:id="@+id/button_bieker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_was_jetzt"
+        android:layout_below="@+id/button_was_jetzt"
+        android:text="@string/label_bieker" />
+
+    <Button
+        android:id="@+id/button_kahn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_bieker"
+        android:layout_alignBottom="@+id/button_bieker"
+        android:layout_alignLeft="@+id/button_was_ansteht"
+        android:layout_alignRight="@+id/button_was_ansteht"
+        android:text="@string/label_kahn" />
+
+    <Button
+        android:id="@+id/button_das_ist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_bieker"
+        android:layout_below="@+id/button_bieker"
+        android:text="@string/label_dasist" />
+
+    <Button
+        android:id="@+id/button_wiegeil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_das_ist"
+        android:layout_alignBottom="@+id/button_das_ist"
+        android:layout_alignLeft="@+id/button_kahn"
+        android:layout_alignRight="@+id/button_kahn"
+        android:text="@string/label_wie_geil" />
+
+    <Button
+        android:id="@+id/button_jeopardy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_das_ist"
+        android:layout_below="@+id/button_das_ist"
+        android:text="@string/label_jeopardy" />
+
+    <Button
+        android:id="@+id/button_sonicht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_jeopardy"
+        android:layout_alignBottom="@+id/button_jeopardy"
+        android:layout_alignLeft="@+id/button_wiegeil"
+        android:layout_alignRight="@+id/button_wiegeil"
+        android:text="@string/label_sonicht" />
+
+    <Button
+        android:id="@+id/button_annee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_jeopardy"
+        android:layout_below="@+id/button_jeopardy"
+        android:text="@string/label_annee" />
+
+    <Button
+        android:id="@+id/button_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_annee"
+        android:layout_alignBottom="@+id/button_annee"
+        android:layout_alignLeft="@+id/button_sonicht"
+        android:layout_alignRight="@+id/button_sonicht"
+        android:text="@string/label_fail" />
+
+    <Button
+        android:id="@+id/button_delate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button_annee"
+        android:layout_below="@+id/button_annee"
+        android:text="@string/label_delate" />
+
+    <Button
+        android:id="@+id/button_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_fail"
+        android:layout_alignRight="@+id/button_fail"
+        android:layout_below="@+id/button_fail"
+        android:text="@string/label_alarm" />
+
+</RelativeLayout>
